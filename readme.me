@@ -1,0 +1,22 @@
+In this CMS we have two panels : one is admin panel and second is blogs panel
+
+1. Admin panel
+    In admin panel we can create posts, delete, posts, add categories, delete categories
+
+    Controller For Admin Panel : PostsController
+    Template Layout : layouts/app.blade.php
+    Template Folder : posts, tags, categories
+
+2. Blogs Panel
+    Blogs is the main page of the website where all posts and categories are visible to the normal users
+
+    Controller for Blogs : BlogsController
+    Template Layout : layouts/blog.blade.php
+    Template Folder : blogs    
+
+Admin Area : 
+There are two types of users
+        1. Writers users : Add Post, View their posts, delete their posts    
+        2. Admin users   : Add Post, Add Category, Delete Category, Add Tag, Delete Tag, Delete All posts, View all posts
+
+Notes : Any new user user will be by default writer, only Admin can make a writer as Admin

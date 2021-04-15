@@ -24,7 +24,7 @@ There are two types of users
 
 Notes : Any new user user will be by default writer, only Admin can make a writer as Admin
 
-
+I have used Laravel framework to create this CMS.
 
 ## About Laravel
 

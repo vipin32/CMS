@@ -1,6 +1,6 @@
-<p align="center"><a href="" style="font-color: red; font-weight: bold;">CMS</a></p>
+<p align="center"><a href="">CMS</a></p>
 
-<p align="center">
+
 In this CMS we have two panels : one is admin panel and second is blogs panel
 
 1. Admin panel
@@ -24,7 +24,7 @@ There are two types of users
 
 Notes : Any new user user will be by default writer, only Admin can make a writer as Admin
 
-</p>
+
 
 ## About Laravel
 

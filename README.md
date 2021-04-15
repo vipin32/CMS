@@ -1,10 +1,29 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center"><a href="" style="font-color: red; font-weight: bold;">CMS</a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+In this CMS we have two panels : one is admin panel and second is blogs panel
+
+1. Admin panel
+    In admin panel we can create posts, delete, posts, add categories, delete categories
+
+    Controller For Admin Panel : PostsController
+    Template Layout : layouts/app.blade.php
+    Template Folder : posts, tags, categories
+
+2. Blogs Panel
+    Blogs is the main page of the website where all posts and categories are visible to the normal users
+
+    Controller for Blogs : BlogsController
+    Template Layout : layouts/blog.blade.php
+    Template Folder : blogs    
+
+Admin Area : 
+There are two types of users
+        1. Writers users : Add Post, View their posts, delete their posts    
+        2. Admin users   : Add Post, Add Category, Delete Category, Add Tag, Delete Tag, Delete All posts, View all posts
+
+Notes : Any new user user will be by default writer, only Admin can make a writer as Admin
+
 </p>
 
 ## About Laravel

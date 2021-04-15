@@ -1,4 +1,5 @@
 <h2 align="center">CMS</h2>
+<small>by Vipin</small>
 
 
 In this CMS we have two panels : one is admin panel and second is blogs panel
